@@ -48,6 +48,10 @@ ul {
   }
 
 /*============== BASE: tudo que é padrão ==============*/
+
+html {
+    scroll-behavior: smooth;
+}
 body {
     font: 400 1 rem "DM Sans", sans-serif;
     color: --text-color;
@@ -109,6 +113,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.section header {
+    margin-bottom: 4rem;
+}
+
 #header {
     border-bottom: 1px solid rgb(177, 179, 178);
     margin-bottom: 2rem;
@@ -122,6 +130,10 @@ body {
     z-index: 100;
     width: 100%;
 
+}
+
+#header .scroll {
+    box-shadow: 0px 0px 12px black !important;
 }
 
 main {
@@ -315,9 +327,50 @@ nav .items {
 
 }
 
+/*============== CARDS ==============*/
+
+.cards .grid {
+    gap: 1.5rem;    
+}
 
 .cardfeira{
-    box-shadow: 0 0 1em black;;
+    padding: 3,625rem 2rem !important;
+    box-shadow: 0 0 1em rgb(80, 80, 80);
+    border-radius:  0,25rem 0.25rem 0 0 !important;
+    border-bottom: 0.25rem solid var(--base-color) !important;
+    text-align: justify;
+
+}
+
+.cardfeira .card-title {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+}
+
+/*============== DEPOIMENTOS ==============*/
+
+#testimonials {
+    background: white;
+}
+
+#testimonials blockquote{
+    padding: 2rem;
+    box-shadow: 0px 0px 12px  rgb(80, 80, 80);
+    border-radius: 0.25rem;
+}
+
+/*estilizando aspas*/
+#testimonials blockquote p{
+    position: relative;
+    text-indent: 1.875rem;
+    margin-bottom: 1.5rem;
+}
+#testimonials blockquote p span{
+    font: 700 3rem serif;
+    color: var(--base-color);
+    position: absolute;
+    top: -0.5rem;
+    left: -1.875rem;
 
 }
 

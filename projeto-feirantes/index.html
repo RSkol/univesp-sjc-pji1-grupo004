@@ -30,7 +30,7 @@
 </head>
 <body>
 
-    <header id="header">
+    <header id="header" class="scroll">
         <nav class="container navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand logo" href="#">feira<span>.SantosDumont</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
           </nav>
     </header>
 
-    <main>
+    <main class="container">
 
         <!-- HOME -->
         <section class="section" id="home">
@@ -63,7 +63,10 @@
         
                     <p>Feira do Parque Santos Dumont: Alimentos, artesanatos e diversos produtos</p>
                     <!-- <a class="button" href="#">Agende seu horário</a> -->
-                </div>            
+                </div>    
+                <div>
+
+                </div>        
             </div>
 
         </section>       
@@ -75,7 +78,7 @@
         <section class="section" id="about">
             <div class="container grid">
                 <div class="imagem">
-                    <img src="https://media.istockphoto.com/photos/various-fresh-fruits-and-vegetables-on-market-counter-in-a-wooden-picture-id1014177224?b=1&k=20&m=1014177224&s=170667a&w=0&h=nMKrkfyg0JzJjhthayB7i_fhRbMQxaGpASwPGjsJQBo=" alt="frutas expostas em caixote">
+                    <img src="https://vidasimples.co/wp-content/uploads/2019/09/vida-simples-feira-vai-ter-feira-4-1147x523.png" alt="feira de rua com pessoas andando. Frutas e verduras expostas em barracas">
                 </div>
 
                 <div class="text">
@@ -96,18 +99,37 @@
 
         <div class="divider2">   </div>
     
-
+         <!-- SERVICES - FEIRA -->
         <section class="section" id="services">
 
             <div class="container grid">
+              <header>
                 <h2 class="title">Feirantes</h2>
-                
-                <div class="card mb-3 cardfeira">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eos, a beatae modi perferendis ratione maxime, soluta incidunt cumque delectus atque itaque amet neque labore nemo voluptatibus, magni ducimus ab minus maiores! Nesciunt quas et eum neque, aperiam sint quasi optio maxime, delectus cumque excepturi fugit eos? Minus, fuga officia.</p>
+              </header>
+              <div class="cards grid">              
+              
+                <div class="card mb-3 cardfeira grid">
                     <img class="card-img-top" src="./assets/images/card1.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Barraca do Senhor João</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, officiis. Soluta doloribus quod provident perferendis dignissimos. Deleniti suscipit aliquam velit facere consequatur placeat magni quas laborum ipsa atque, ratione reprehenderit. </p>
-                      <p class="card-text"><small class="text-muted">atualizado em 17/10/2021</small></p>
+                      <p class="card-text"><small class="text-muted">atualizado em 17/10/2021</small> </p>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3 cardfeira" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./assets/images/5.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -130,6 +152,7 @@
                     </div>
                   </div>
                   <br>
+                </div>
 
 
                   <div class="card cardfeira" style="width: 18rem;">
@@ -143,25 +166,73 @@
 
             
         </section>
+        <!-- /SERVICES - FEIRA -->
 
         <div class="divider">   </div>
 
-        <section class="section" id="services">
+        <!-- TESTIMONIALS -->
+        <section class="section" id="testimonials">
 
-            <div class="container grid">
-                DEPOIMENTOS
+          <div class="container grid">
+            <h2 class="title">Deixe um depoimento sobre a Feira Santos Dumont</h2>
+
+
+            <!-- caixa de depoimentos -->
+            <div class="testimonials">
+              <div class="card-testimonial">
+                <blockquote>
+                  <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos molestiae inventore quis, assumenda maiores et. Tenetur tempore doloribus adipisci quasi.
+                </p>
+                <cite>
+                  Fulana de tal
+
+                </cite>
+              </blockquote>
+                
+
+              </div>
+
+
             </div>
-        </section>
 
+
+
+
+            <!-- formulário de depoimentos -->
+            <div>
+              <div>
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" Ex.: Maria Souza">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva seu depoimento"></textarea>
+              </div>
+              <div class="mb-3">
+                <button type="button" class="btn btn-secondary">Enviar</button>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+        <!-- /TESTIMONALS -->
+        
         <div class="divider2">   </div>
 
-        <section class="section" id="services">
+        <!-- CONTACT -->
+        <section class="section" id="contact">
 
             <div class="container grid">
 
-            CONTATO
+              <h2 class="title">Contato</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.1847257228615!2d-45.89322918539309!3d-23.199937654228677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a6e8144b717%3A0xc2cc0db732576017!2sParque%20Santos%20Dumont!5e0!3m2!1spt-BR!2sbr!4v1634782556769!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
             </div>
         </section>
+        <!-- /CONTACT -->
 
 
 
