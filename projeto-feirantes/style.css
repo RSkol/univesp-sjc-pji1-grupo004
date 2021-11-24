@@ -105,6 +105,7 @@ body {
     display: grid;
     gap: 2 rem;
     
+    
 }
 
 .section {
@@ -546,6 +547,11 @@ footer .social a:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+
+    #testimonials .form {       
+
+        width: 50%;
     }
 }
 
