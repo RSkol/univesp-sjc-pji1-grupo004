@@ -25,8 +25,8 @@ const swiper = new Swiper('.swiper-container', {
 // Scroll Reveal 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '30px',
-    duration: 1000,
+    distance: '50px',
+    duration: 800,
     reset: true
 });
 
@@ -37,3 +37,5 @@ sr.reveal(
 #testimonials img, #testimonials .text,
 #contact img, #contact .text`
 , { interval: 100});
+
+
