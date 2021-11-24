@@ -1,3 +1,4 @@
+
 /*============== RESET ==============*/
 * {
     margin: 0;
@@ -401,7 +402,20 @@ nav .items {
 #contact i {
     color: var(--base-color);
     font-size: 1.5 rem;
-
-    
-
 }
+
+/*============== FOOTER ==============*/
+.footer {
+    background-color: var(--base-color);
+}
+
+
+
+
+
+
+
+
+
+
+
