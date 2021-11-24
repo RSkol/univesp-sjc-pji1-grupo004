@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feira</title>
+    <title>Feira Parque Santos Dumont</title>
 
     <!-- Icones -->
     <link rel="stylesheet" href="/assets/icones/style.css">
-
-
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./style.css">
@@ -24,13 +22,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <!-- SWIPER -->
+    <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 <body>
 
-    <header id="header">
+    <header id="header" class="scroll">
         <nav class="container navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand logo" href="#">feira<span>.SantosDumont</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +50,7 @@
           </nav>
     </header>
 
-    <main>
+    <main class="container">
 
         <!-- HOME -->
         <section class="section" id="home">
@@ -62,8 +64,11 @@
                     <h3>Agricultura familar de São José dos Campos</h3>
         
                     <p>Feira do Parque Santos Dumont: Alimentos, artesanatos e diversos produtos</p>
-                    <!-- <a class="button" href="#">Agende seu horário</a> -->
-                </div>            
+                    
+                </div>    
+                <div>
+
+                </div>        
             </div>
 
         </section>       
@@ -74,107 +79,240 @@
         <!-- ABOUT -->
         <section class="section" id="about">
             <div class="container grid">
+
                 <div class="imagem">
-                    <img src="https://media.istockphoto.com/photos/various-fresh-fruits-and-vegetables-on-market-counter-in-a-wooden-picture-id1014177224?b=1&k=20&m=1014177224&s=170667a&w=0&h=nMKrkfyg0JzJjhthayB7i_fhRbMQxaGpASwPGjsJQBo=" alt="frutas expostas em caixote">
+                    <img src="https://vidasimples.co/wp-content/uploads/2019/09/vida-simples-feira-vai-ter-feira-4-1147x523.png" alt="feira de rua com pessoas andando. Frutas e verduras expostas em barracas">
                 </div>
 
                 <div class="text">
                     <h2 class="title">Sobre nós</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum laboriosam sapiente aspernatur! Cum, consequuntur quod? Esse porro, quod ipsam, maxime repudiandae atque ratione minima quo, laboriosam est quasi veniam!
-                    </p>
-        
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti id in ipsum deserunt, alias aliquid cupiditate fuga quis numquam nesciunt autem natus obcaecati sunt beatae omnis expedita excepturi esse similique?</p>
+                    <p>Somos uma <strong>Feira Livre</strong> que tem espaço para todos os gostos e tipos, promovendo interação com a comunidade, possibilitando novas relações.
+                      <br>
+                      É um ambiente democrático, pois é frequentada por vários perfis de pessoas, e não há distinção no tratamento.
+                      <br>
+                      Aqui poderá encontrar muitas variedades de verduras, frutas, legumes, temperos, muita coisa boa e natural.
+                      Além das muitas coisas saudáveis, você também encontrará atenção e simpatia tanto dos feirantes quanto das pessoas que circulam pela feira.
+                      <br>
+                      Nossos clientes se tornam verdadeiros amigos, criamos uma verdadeira relação de credibilidade e fidelidade com eles.
+                      <br>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere consectetur officiis numquam voluptatum animi saepe, perspiciatis, deleniti explicabo iste, rem natus debitis quos. Porro facilis recusandae quibusdam necessitatibus eaque!</p>
+                      Garantimos produtos de qualidade e um bom papo, venha nos visitar no<strong> Parque Santos Dumont</strong>, em São José dos Campos.</p>              
                     
-                </div>     
-
+                </div>   
             </div>
         </section>
         <!-- /ABOUT -->
 
         <div class="divider2">   </div>
     
-
+         <!-- SERVICES - FEIRA -->
         <section class="section" id="services">
 
             <div class="container grid">
+              <header>
                 <h2 class="title">Feirantes</h2>
-                
-                <div class="card mb-3 cardfeira">
+                <p>Nossos Feirantes trabalham com a responsabilidade de levar às suas barracas somente produtos de boa qualidade e procedência, além de sempre oferecer à sua clientela bons preços e ótimo atendimento.
+                  <br>
+                  Ao final de toda feira é possível encontrar preços ainda menores.
+                </p>
+
+                <p>Confira abaixo algumas barracas</p>
+              </header>
+              <div class="cards grid">              
+              
+                <div class="card mb-3 cardfeira grid">
+                    <img class="card-img-top" src="./assets/images/feirante2.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Barraca da Dona Vera</h5>
+                      <p class="card-text">Dona Vera está nesta feira livre há 20 anos, já faz parte da tradição cultural popular urbana de São José dos Campos. 
+                        <br>
+                      Venha conhecer essa barraca cheia de legumes e verduras fresquinhos!
+                      </p>
+                      <p class="card-text"><small class="text-muted">atualizado em 17/10/2021</small> </p>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3 cardfeira grid">
                     <img class="card-img-top" src="./assets/images/card1.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Barraca do Senhor João</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, officiis. Soluta doloribus quod provident perferendis dignissimos. Deleniti suscipit aliquam velit facere consequatur placeat magni quas laborum ipsa atque, ratione reprehenderit. </p>
-                      <p class="card-text"><small class="text-muted">atualizado em 17/10/2021</small></p>
+                      <p class="card-text">Com muita variedade de frutas, os produtos são frescos e com qualidade, tudo sem agrotóxicos. Além de tudo isso, aqui você encontra muita prosa com a equipe do Sr. Joao. </p>
+                      <p class="card-text"><small class="text-muted">atualizado em 17/10/2021</small> </p>
                     </div>
                   </div>
 
-                  <div class="card cardfeira">
+                  <div class="card mb-3 cardfeira grid">
+                    <img class="card-img-top" src="./assets/images/feirante 3.jpeg" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Barraca do Senhor João</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, officiis. Soluta doloribus quod provident perferendis dignissimos. Deleniti suscipit aliquam velit facere consequatur placeat magni quas laborum ipsa atque, ratione reprehenderit. </p>
-                      <p class="card-text"><small class="text-muted">atualizado em 17/10/2021</small></p>
+                      <h5 class="card-title">Barraca do Waltão</h5>
+                      <p class="card-text">O famoso Waltão da feira também está aqui, seus legumes e verduras são variados, frescos e sem agrotóxicos.
+                        <br>
+                        Venha até nós e não deixe de conhecer essa barraca, é alegria pura o seu atendimento.
+                        </p>
+                      <p class="card-text"><small class="text-muted">atualizado em 17/10/2021</small> </p>
                     </div>
-                    <img class="card-img-bottom" src="./assets/images/card1.jpg" alt="Card image cap">
-                  </div>
-                  <br>
-
-                  <div class="card cardfeira" style="width: 18rem;">
-                    <img src="./assets/images/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <br>
-
-
-                  <div class="card cardfeira" style="width: 18rem;">
-                    <img src="./assets/images/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
+                  </div>                                 
                 
             </div>
 
             
         </section>
+        <!-- /SERVICES - FEIRA -->
 
         <div class="divider">   </div>
 
-        <section class="section" id="services">
+        <!-- TESTIMONIALS -->
+        <section class="section" id="testimonials">
 
-            <div class="container grid">
-                DEPOIMENTOS
+          <div class="container">
+            <h2 class="title">Deixe um depoimento sobre a Feira Santos Dumont</h2>
+
+
+            <!-- caixa de depoimentos(com swiper) -->
+            <div class="testimonials">
+
+              <div class="d-flex flex-wrap justify-content-center">
+
+                <div class="card-testimonial mr-2" style="width: 18rem;">
+
+                  <blockquote>
+                    <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos molestiae inventore quis, assumenda maiores et. Tenetur tempore doloribus adipisci quasi.
+                  </p>
+                    <cite>
+                      Fulana de tal
+
+                    </cite>
+                  </blockquote> 
+                  
+                </div>   
+                
+                <div class="card-testimonial mr-2" style="width: 18rem;">
+                  <blockquote>
+                    <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos molestiae inventore quis, assumenda maiores et. Tenetur tempore doloribus adipisci quasi.
+                  </p>
+                    <cite>
+                      Fulana de tal
+
+                    </cite>
+                  </blockquote> 
+                </div>
+
+                <div class="card-testimonial mr-2" style="width: 18rem;">
+                  <blockquote>
+                    <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos molestiae inventore quis, assumenda maiores et. Tenetur tempore doloribus adipisci quasi.
+                  </p>
+                    <cite>
+                      Fulana de tal
+                    </cite>
+                  </blockquote> 
+                </div>
+
+                <div class="card-testimonial mr-2" style="width: 18rem;">
+                  <blockquote>
+                    <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos molestiae inventore quis, assumenda maiores et. Tenetur tempore doloribus adipisci quasi.
+                  </p>
+                    <cite>
+                      Fulana de tal
+
+                    </cite>
+                  </blockquote>                   
+                </div> 
+
+              </div>
+              
             </div>
-        </section>
 
+
+
+
+            <!-- formulário de depoimentos -->
+            <div>
+              <div>
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" Ex.: Maria Souza">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva seu depoimento"></textarea>
+              </div>
+              <div class="mb-3">                
+                <a class="button">Enviar</a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- /TESTIMONALS -->
+        
         <div class="divider2">   </div>
 
-        <section class="section" id="services">
+        <!-- CONTACT -->
+        <section class="section" id="contact">
 
             <div class="container grid">
 
-            CONTATO
+
+              <div class="text">
+                <h2 class="title">Nos encontre aqui</h2>
+                <p>Venha conhecer a Feira Santos Dumont</p>
+                <p>Vejo os dias, horários e localização</p>
+              </div>
+
+                <div class="row text mb-5">
+                  <div class="col-md-6 col-sm-12">                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.1814612760354!2d-45.894236085552734!3d-23.20005665423257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4b1c0044c8bb%3A0x1196a832ce1e8820!2sFeira%20Livre%20Parque%20Santos%20Dumont!5e0!3m2!1spt-BR!2sbr!4v1636758465842!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+
+                  <div class="col-md-6 col-sm-12">
+                    <h5><i class="icon-store"> </i>Dias e Horários</h5> 
+                    <ul>
+                      <li>Segunda-feira: das 9h às 18h</li>
+                      <li>Quarta-feira: das 9h às 18h</li>
+                      <li>Quinta-feira: das 9h às 18h</li>
+                      <li></li>
+                      <li></li>
+                    </ul> 
+                    <p><i class="icon-map-pin"></i> R. Eng. Prudente Meireles de Morais, nº 1000, <br>Vila Adyana, São José dos Campos - SP</p>
+                  </div>
+                </div>
+  
+                
+
+              
+
+                      
+              
+              
+
             </div>
         </section>
-
-
-
+        <!-- /CONTACT -->
     </main>
-
     
 
-    <footer>
-
-    </footer>
+     
+<footer class="footer text text-center text-white">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    ©2021 Copyright: Feira Santos Dumont    
+  </div>
+</footer>
     
 
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
+    <!-- Scroll Reveal -->    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- JS -->
    <script src="./script.js"></script>
     
 </body>
