@@ -167,7 +167,7 @@
           
             <!-- caixa de depoimentos(com swiper) -->
             <div class="testimonials">
-              <div class="d-flex flex-wrap justify-content-center">
+              <div class="cards-testimonials">
               {% for contador in latest_post_list %}
                 <div class="card-testimonial mr-2" style="width: 18rem;">
                   <blockquote>
@@ -237,14 +237,34 @@
             </div>
         </section>
         <!-- /CONTACT -->
+        <div class="divider">   </div>
 
     </main>
 
-    <footer class="footer text text-center text-white">
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        ©2021 Copyright: Feira Santos Dumont    
+    <!-- FOOTER -->
+    <footer class="footer section text text-center">
+
+      <div class="container grid" >
+        <div class="brand">
+          <a class="navbar-brand logo" href="#home">feira<span>.SantosDumont</span></a>               
+          <p>©2021 Copyright Feira Santos Dumont</p>
+          <p>Todos os direitos reservados.</p>
+       
+        </div>
+
+        <div class="social text-center">
+          	
+
+          <a href="https://www.instagram.com/" target="_blank"><i class="icon-instagram"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook"></i></a>
+          <a href="#"><i class="icon-whatsapp" target="_blank"></i></a>
+        </div>  
       </div>
+     
     </footer>
+    <!-- /FOOTER -->
+
+    <a href="#home" class="topo show">&#129129;</a>
     
 
     <!-- SWIPER -->
