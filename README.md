@@ -1,4 +1,4 @@
-# Projeto Integrador I - Grupo 004 do pólo de Santana - São José dos Campos
+# Projeto Integrador I - Grupo 004 do polo de Santana - São José dos Campos
 
 ## Descrição
 Este repositório contem todo o material utilizado pelo grupo para a construção de um site de divulgação da feira do parque Santos Dumont. 
